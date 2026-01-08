@@ -1,17 +1,23 @@
 
+I am an undergraduate student at **Fudan University** (Chemistry, expected **Jun 2026**). My interests include **machine learning**, **quantitative finance**, and **multimodal generative models**.
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
-
-He is currently a Fellow in the Department of Earth and Planetary Sciences (EPS) at Harvard University.
+#### Quick Links
+- CV (PDF): [Download](CV_陈星宇_English_New.pdf)
 
 #### Contact
-
-Email: senli[at]fas.harvard.edu
+- Email: 22300220002@m.fudan.edu.cn
+- Location: Shanghai, China
+- Phone: (+86) 130-5232-3555
 
 #### Education
-M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025.\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
+- **Fudan University**, B.S. in Chemistry (expected) — 09/2022–06/2026  
+  GPA: **3.61/4.0** (Rank: **22/104**)
 
-#### Research Interests
-Deep Learning, Artificial Intelligence Seismology, Mine Microseismic.
+#### Relevant Coursework
+- Financial Derivatives; Mathematical Methods in Finance; Machine Learning and Neural Networks; Natural Language Processing
+- Algorithms; Stochastic Processes; Applied Functional Analysis
 
+#### Skills
+- Programming: Python, Go, Linux
+- ML/NLP: machine learning, NLP, model training & evaluation
+- Languages: English (IELTS **7.5**)

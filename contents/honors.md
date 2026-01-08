@@ -1,0 +1,3 @@
+- Fudan University **Second-Class Scholarship** (Top 10%) ×2
+- **National Silver Medal**, Chemistry Olympiad
+- **Champion**, Fudan University Debate Competition
