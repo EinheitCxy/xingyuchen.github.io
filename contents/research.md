@@ -12,7 +12,7 @@ Research Assistant | Mentor: Prof. Qingfu Liu — Sep 2024 – Jan 2025
 - Built a political misinformation/news index and analyzed its correlation with financial markets.
 - Used NLP + ML to incorporate political factors into stock return prediction (working paper).
 
-#### Multimodal Diffusion Large Models — Fudan University × Alibaba  
+#### Multimodal Diffusion Large Models — Fudan University
 Researcher | Supervisor: Dr. Baojian Zhou — Jul 2025 – Present
 
 - Designed model architecture to map multimodal data (images, PDFs, audio, scientific data) into latent space.
