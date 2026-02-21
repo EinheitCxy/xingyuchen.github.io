@@ -5,7 +5,7 @@ I am an undergraduate student at **Fudan University** (Chemistry, expected **Jun
 - CV (PDF): [Download](CV_陈星宇_English_New.pdf)
 
 #### Contact
-- Email: 22300220002@m.fudan.edu.cn
+- Email: einheitcxy@gmail.com
 - Location: Shanghai, China
 - Phone: (+86) 130-5232-3555
 
