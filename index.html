@@ -71,6 +71,8 @@
     <script type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
     <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     
+    <script src="static/js/gallery.js" defer></script>
+
     <!-- Core JS-->
     <script type="text/javascript" src="static/js/scripts.js"></script>
     <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
@@ -134,6 +136,54 @@
                 <!-- <span class="bi bi-list"></span> -->
             </header>
             <div class="main-body" id="home-md"></div>
+            <div class="photo-gallery mt-5" role="region" aria-roledescription="carousel" aria-labelledby="gallery-title">
+                <div class="gallery-heading">
+                    <div>
+                        <h3 id="gallery-title">Beyond Research</h3>
+                        <p>Graduation, debate, football, and travel.</p>
+                    </div>
+                    <button id="gallery-toggle" class="btn btn-outline-primary" type="button" aria-controls="photo-carousel" aria-pressed="false">Pause slideshow</button>
+                </div>
+                <div id="photo-carousel" class="carousel slide" tabindex="0" aria-label="Personal photo gallery">
+                    <div class="carousel-inner">
+                        <figure class="carousel-item active" role="group" aria-roledescription="slide" aria-label="1 of 7">
+                            <img src="static/assets/gallery/graduation.jpg" alt="Graduation with roommates" width="1600" height="1200" decoding="async">
+                            <figcaption>Graduation with roommates <span lang="zh">· 和室友毕业照</span></figcaption>
+                        </figure>
+                        <figure class="carousel-item" role="group" aria-roledescription="slide" aria-label="2 of 7">
+                            <img src="static/assets/gallery/debate-championship.jpg" alt="Debate championship" width="1600" height="1200" decoding="async">
+                            <figcaption>Debate championship <span lang="zh">· 辩论赛冠军</span></figcaption>
+                        </figure>
+                        <figure class="carousel-item" role="group" aria-roledescription="slide" aria-label="3 of 7">
+                            <img src="static/assets/gallery/department-cup.jpg" alt="Department Cup runner-up" width="1600" height="1200" decoding="async">
+                            <figcaption>Department Cup runner-up <span lang="zh">· 院系杯亚军</span></figcaption>
+                        </figure>
+                        <figure class="carousel-item" role="group" aria-roledescription="slide" aria-label="4 of 7">
+                            <img src="static/assets/gallery/after-a-match.jpg" alt="After a match" width="1600" height="1200" decoding="async">
+                            <figcaption>After a match <span lang="zh">· 一场比赛后</span></figcaption>
+                        </figure>
+                        <figure class="carousel-item" role="group" aria-roledescription="slide" aria-label="5 of 7">
+                            <img src="static/assets/gallery/debate-moment.jpg" alt="A moment during a debate" width="1600" height="1200" decoding="async">
+                            <figcaption>A moment during a debate <span lang="zh">· 辩论赛中发呆</span></figcaption>
+                        </figure>
+                        <figure class="carousel-item" role="group" aria-roledescription="slide" aria-label="6 of 7">
+                            <img src="static/assets/gallery/japan.jpg" alt="Travel in Japan" width="1600" height="1200" decoding="async">
+                            <figcaption>Travel in Japan <span lang="zh">· 日本旅行</span></figcaption>
+                        </figure>
+                        <figure class="carousel-item" role="group" aria-roledescription="slide" aria-label="7 of 7">
+                            <img src="static/assets/gallery/guilin.jpg" alt="Travel in Guilin" width="1600" height="1200" decoding="async">
+                            <figcaption>Travel in Guilin <span lang="zh">· 桂林旅行</span></figcaption>
+                        </figure>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#photo-carousel" data-bs-slide="prev" aria-label="Previous photo">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#photo-carousel" data-bs-slide="next" aria-label="Next photo">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+                <p id="gallery-position" class="gallery-position" aria-live="off">1 / 7 · Graduation with roommates</p>
+            </div>
         </div>
     </section>
     <!-- Home -->

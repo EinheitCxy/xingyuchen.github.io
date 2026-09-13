@@ -17,6 +17,14 @@ The September 13, 2026 update uses `Xingyu_Chen_CV_Full.docx` as its source of t
 
 Run `uv run python -m http.server 8000` from the repository root and open `http://localhost:8000`. Check all four content sections, the CV download, desktop and mobile layouts, and the browser console. Run `git diff --check` before submitting content changes.
 
+## Homepage photo gallery
+
+Seven photos appear below the home biography in a Bootstrap carousel. Slides advance every five seconds, with previous/next buttons, keyboard arrows, touch swiping, and a pause/resume button. Rotation pauses while hovered, keyboard-focused, or in a hidden tab. Reduced-motion users start with rotation paused and no slide transition.
+
+`static/assets/gallery/` contains JPEG web copies (maximum 1600 pixels on either dimension), with orientation normalized and EXIF metadata removed. Source photos are unchanged. HEIC is decoded to JPEG for the website. To add or reorder photos, edit the figures in `index.html`; slide counts and labels are derived by `static/js/gallery.js`. Gallery styling is in `static/css/main.css`.
+
+Validate image decoding, forward/backward wraparound, pause/resume, keyboard and touch navigation, and reduced motion before publishing.
+
 ## Template attribution
 
 ![Github Forks](https://img.shields.io/github/forks/senli1073/senli1073.github.io?style=flat)

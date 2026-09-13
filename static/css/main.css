@@ -1,5 +1,68 @@
 @import "./styles.css";
 
+.photo-gallery {
+    max-width: 980px;
+    margin-inline: auto;
+}
+
+.gallery-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.gallery-heading h3 { color: var(--h-title-color); }
+.gallery-heading p { margin: 0; color: #606777; }
+.gallery-heading button { flex-shrink: 0; }
+
+#photo-carousel {
+    overflow: hidden;
+    border-radius: 16px;
+    background: #172033;
+    box-shadow: 0 12px 32px #17203318;
+}
+
+#photo-carousel figure { margin-bottom: 0; }
+
+#photo-carousel img {
+    display: block;
+    width: 100%;
+    height: clamp(260px, 48vw, 540px);
+    object-fit: contain;
+}
+
+#photo-carousel figcaption {
+    padding: 1rem 3.5rem;
+    min-height: 4.5rem;
+    text-align: center;
+    color: #fff;
+    background: #172033;
+}
+
+#photo-carousel figcaption span { color: #bdc6da; }
+#photo-carousel .carousel-control-prev,
+#photo-carousel .carousel-control-next { width: 3rem; opacity: 1; }
+#photo-carousel .carousel-control-prev-icon,
+#photo-carousel .carousel-control-next-icon {
+    background-color: #172033b3;
+    border-radius: 50%;
+}
+
+.gallery-position { text-align: center; margin: 0.8rem 0 0; color: #606777; }
+.photo-gallery :focus-visible { outline: 3px solid #7189ff; outline-offset: -3px; }
+
+@media (max-width: 575px) {
+    .gallery-heading { align-items: flex-start; flex-direction: column; }
+    #photo-carousel img { height: 300px; }
+    #photo-carousel figcaption span { display: block; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #photo-carousel .carousel-item { transition: none; }
+}
+
 
 :root{
     --h-title-color:#3948d2;
@@ -108,5 +171,3 @@ section .main-body{
         margin: 0;
     }
 }
-
-
