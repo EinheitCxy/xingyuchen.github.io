@@ -1,3 +1,11 @@
+# Experience content update (2026-09-13)
+
+The research and work sections in `contents/research.md` and `contents/experience.md` have been updated against the September 13, 2026 Chinese and English CV revisions and reordered newest first. RetailEye includes May–November 2025 and June 2026–present, with shared responsibilities. The Alibaba internship ends in May 2026. Research content now includes chemical-data vectorization and independent training of domain-specific smaller models.
+
+The source CVs disagree on Alibaba's start date and the end dates of the projects supervised by Baojian Zhou and Qingfu Liu. Pending confirmation, these retain the existing website values: November 2025, present, and January 2025, respectively. This update covers experience text; the downloadable PDF, education, and honors have not been refreshed.
+
+Preview from the repository root with `uv run python -m http.server 8000`, open `http://localhost:8000`, and check Research, Experience, and the browser console. No build step is required.
+
 
 
 ![Github Forks](https://img.shields.io/github/forks/senli1073/senli1073.github.io?style=flat)
