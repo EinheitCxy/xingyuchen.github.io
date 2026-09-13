@@ -41,7 +41,6 @@
     background: #172033;
 }
 
-#photo-carousel figcaption span { color: #bdc6da; }
 #photo-carousel .carousel-control-prev,
 #photo-carousel .carousel-control-next { width: 3rem; opacity: 1; }
 #photo-carousel .carousel-control-prev-icon,
@@ -56,7 +55,6 @@
 @media (max-width: 575px) {
     .gallery-heading { align-items: flex-start; flex-direction: column; }
     #photo-carousel img { height: 300px; }
-    #photo-carousel figcaption span { display: block; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -113,10 +111,10 @@ section .main-body { font-size: 1rem; line-height: 1.8; font-weight: 400; }
     .hero-links { gap: 1rem; }
 }
 
-#mainNav .navbar-nav .nav-link.active { color: #254b7a; }
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover { color: #254b7a; }
 #mainNav .navbar-brand, .main-body h3 { color: var(--h-title-color); }
 .name-cn { display: inline-block; font-family: "Mulish", sans-serif; font-size: .43em; letter-spacing: .08em; font-weight: 400; color: #5e6e85; vertical-align: middle; margin-left: .5rem; }
-#home-md > .research-interests { font-size: .95rem; padding-left: 1rem; border-left: 2px solid #7892b5; margin: 1.25rem 0 0; }
+#home-md > p.research-interests { font-size: .95rem; padding-left: 1rem; border-left: 2px solid #7892b5; margin: 1.25rem 0 0; }
 .research-interests span { display: block; font-size: .7rem; text-transform: uppercase; letter-spacing: .1em; font-weight: 700; color: #254b7a; margin-bottom: .2rem; }
 .intro-background .eyebrow { margin-bottom: .6rem; }
 .intro-background h3 { font-size: 1.1rem; margin-bottom: .3rem; }

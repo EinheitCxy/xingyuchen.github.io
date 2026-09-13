@@ -15,7 +15,7 @@ This homepage includes all research and work experiences while summarizing each 
 
 ## Photo gallery
 
-Seven photos appear in the final content section, after research and work experience and before the footer. Images load lazily. Slides advance every five seconds, with previous/next buttons, keyboard arrows, touch swiping, and pause/resume. Rotation pauses on hover, keyboard focus, or hidden tabs. Reduced-motion users start paused.
+Seven photos appear in the final content section, after research and work experience and before the footer. Captions use English only. Images load lazily. Slides advance every five seconds, with previous/next buttons, keyboard arrows, touch swiping, and pause/resume. Rotation pauses on hover, keyboard focus, or hidden tabs. Reduced-motion users start paused.
 
 `static/assets/gallery/` contains JPEG copies with normalized orientation and EXIF removed; originals are unchanged. Edit figures in `index.html` to reorder photos. `static/js/gallery.js` derives slide counts and labels.
 
