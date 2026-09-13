@@ -63,45 +63,44 @@
     #photo-carousel .carousel-item { transition: none; }
 }
 
-:root { --h-title-color: #203d37; }
-body { background: #fafaf7; color: #25332e; }
-a { color: #285c4b; text-underline-offset: 5px; }
-.header { background: #fafaf7f5; border-bottom: 1px solid #dce1d9; box-shadow: none !important; }
+:root { --h-title-color: #172e51; }
+body { background: #fcfcfd; color: #263449; }
+a { color: #254b7a; text-underline-offset: 5px; }
+.header { background: #fcfcfdf5; border-bottom: 1px solid #dce3ed; box-shadow: none !important; }
 #mainNav .navbar-brand { font-family: "Newsreader", Georgia, serif; font-size: 1.5rem; }
 #mainNav .navbar-nav .nav-link { font-size: .72rem; letter-spacing: .1em; }
 .container { max-width: 1120px; }
 section { padding: 4rem 0; scroll-margin-top: 70px; }
 section header { margin-bottom: 2rem; }
-section header h2 { font-family: "Newsreader", Georgia, serif; font-size: 2.2rem; color: #203d37; }
+section header h2 { font-family: "Newsreader", Georgia, serif; font-size: 2.2rem; color: #172e51; }
 section .main-body { font-size: 1rem; line-height: 1.8; font-weight: 400; }
 .bg-gradient-primary-to-secondary-light, .bg-gradient-primary-to-secondary-gray { background: transparent !important; }
-#home { padding-top: 9rem; padding-bottom: 5rem; }
-.hero-grid { display: grid; grid-template-columns: 1fr 230px; gap: 5rem; align-items: center; }
-#home h1 { font-family: "Newsreader", Georgia, serif; font-size: clamp(2.3rem, 4.4vw, 3.6rem); line-height: 1.12; letter-spacing: -.035em; margin: 1.2rem 0 1.5rem; }
-#home-md > p:not(.eyebrow) { max-width: 610px; color: #58655e; font-size: 1.06rem; }
-.eyebrow { font-size: .7rem; letter-spacing: .15em; font-weight: 700; color: #5a7566; margin-bottom: 1rem; }
+#home { padding-top: 8rem; padding-bottom: 3.5rem; }
+.hero-grid { display: grid; grid-template-columns: 1fr 230px; gap: 4rem; align-items: center; }
+#home h1 { font-family: "Newsreader", Georgia, serif; font-size: clamp(2.2rem, 3.6vw, 3rem); line-height: 1.12; letter-spacing: -.035em; margin: .7rem 0 1.2rem; }
+#home-md > p:not(.eyebrow) { max-width: 610px; color: #526078; font-size: 1.06rem; }
+.eyebrow { font-size: .7rem; letter-spacing: .15em; font-weight: 700; color: #526c8e; margin-bottom: 1rem; }
 .hero-links { display: flex; gap: 1.5rem; flex-wrap: wrap; margin-top: 1.7rem; font-size: .88rem; }
 .portrait img { width: 100%; height: 280px; object-fit: cover; border-radius: 4px 4px 64px 4px; }
 .portrait p { margin-top: 1rem; font-size: .9rem; line-height: 1.7; }
-.portrait p span { color: #69736d; font-size: .8rem; }
-#research { background: #edf1eb !important; }
+.portrait p span { color: #5e6e85; font-size: .8rem; }
+#research { background: #f0f3f8 !important; }
 #research-md { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
-.focus-card { background: #fafaf7; border: 1px solid #dbe2d7; padding: 2rem; border-radius: 8px; }
+.focus-card { background: #fcfcfd; border: 1px solid #dce3ed; padding: 2rem; border-radius: 8px; }
 .main-body h3 { font-size: 1.25rem; font-weight: 600; margin-bottom: .75rem; }
-.focus-card > p:not(.eyebrow):not(.meta), .experience-row > p { color: #57645c; }
-.meta { font-size: .78rem; color: #69736d; line-height: 1.6; margin-bottom: 0; }
-.experience-row { display: grid; grid-template-columns: 1fr 1.35fr; gap: 2.5rem; padding: 1.5rem 0; border-top: 1px solid #dce1d9; }
+.focus-card > p:not(.eyebrow):not(.meta), .experience-row > p { color: #526078; }
+.meta { font-size: .78rem; color: #5e6e85; line-height: 1.6; margin-bottom: 0; }
+.experience-row { display: grid; grid-template-columns: 1fr 1.35fr; gap: 2.5rem; padding: 1.5rem 0; border-top: 1px solid #dce3ed; }
 .experience-row > p { margin: 0; }
-#honors { padding-top: 0; }
-#honors-md { display: grid; grid-template-columns: 1fr 1.35fr; gap: 2.5rem; border-top: 1px solid #dce1d9; padding-top: 1.5rem; }
+#honors-md { margin-top: 2.5rem; display: grid; grid-template-columns: 1fr 1.35fr; gap: 2.5rem; border-top: 1px solid #dce3ed; padding-top: 1.5rem; }
 .academic-stats { display: flex; flex-wrap: wrap; gap: 1.2rem; font-size: .86rem; }
 .honors-summary p { margin-bottom: .4rem; }
-#life { background: #edf1eb; }
+#life { background: #f0f3f8; }
 .gallery-heading h3 { font-family: "Newsreader", Georgia, serif; font-size: 2.2rem; }
 .gallery-heading p, .gallery-position { font-size: .85rem; }
-#gallery-toggle { border-color: #718578; color: #203d37; font-size: .8rem; }
-#gallery-toggle:hover { background: #203d37; color: #fff; }
-.bg-bottom { background: #203d37; }
+#gallery-toggle { border-color: #617b9d; color: #172e51; font-size: .8rem; }
+#gallery-toggle:hover { background: #172e51; color: #fff; }
+.bg-bottom { background: #172e51; }
 @media (max-width: 767px) {
     .container.px-5 { padding-left: 1.5rem !important; padding-right: 1.5rem !important; }
     section { padding: 3rem 0; }
@@ -112,4 +111,22 @@ section .main-body { font-size: 1rem; line-height: 1.8; font-weight: 400; }
     #research-md, .experience-row, #honors-md { grid-template-columns: 1fr; gap: 1rem; }
     .focus-card { padding: 1.5rem; }
     .hero-links { gap: 1rem; }
+}
+
+#mainNav .navbar-nav .nav-link.active { color: #254b7a; }
+#mainNav .navbar-brand, .main-body h3 { color: var(--h-title-color); }
+.name-cn { display: inline-block; font-family: "Mulish", sans-serif; font-size: .43em; letter-spacing: .08em; font-weight: 400; color: #5e6e85; vertical-align: middle; margin-left: .5rem; }
+#home-md > .research-interests { font-size: .95rem; padding-left: 1rem; border-left: 2px solid #7892b5; margin: 1.25rem 0 0; }
+.research-interests span { display: block; font-size: .7rem; text-transform: uppercase; letter-spacing: .1em; font-weight: 700; color: #254b7a; margin-bottom: .2rem; }
+.intro-background .eyebrow { margin-bottom: .6rem; }
+.intro-background h3 { font-size: 1.1rem; margin-bottom: .3rem; }
+.intro-background p { font-size: .88rem; }
+.intro-background .eyebrow { font-size: .7rem; }
+.focus-card { display: flex; flex-direction: column; border-top: 3px solid #7892b5; box-shadow: 0 4px 18px #172e5105; }
+.focus-card .meta { margin-top: auto; padding-top: .4rem; }
+a:focus-visible, button:focus-visible { outline: 2px solid #254b7a; outline-offset: 4px; }
+@media (max-width: 767px) {
+    #honors-md { gap: 1.4rem; margin-top: 2rem; }
+    .hero-grid { gap: 1.5rem; }
+    .portrait p { margin-bottom: 0; }
 }
