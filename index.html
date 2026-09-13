@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Personal website / CV" />
+    <meta name="description" content="Xingyu Chen — research interests in model acceleration and model architecture design." />
     <meta name="author" content="Xingyu Chen" />
     <title id="title"></title>
 
@@ -71,6 +71,8 @@
     <script type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
     <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     
+    <script src="static/js/gallery.js" defer></script>
+
     <!-- Core JS-->
     <script type="text/javascript" src="static/js/scripts.js"></script>
     <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
@@ -100,7 +102,7 @@
                         <a class="nav-link me-lg-3" href="#experience">EXPERIENCE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#honors">HONORS</a>
+                        <a class="nav-link me-lg-3" href="#life">LIFE</a>
                     </li>
 
                 </ul>
@@ -108,32 +110,14 @@
         </div>
     </nav>
 
-    <!-- Top Section -->
-    <section class="top-section" style="background-image: url('static/assets/img/background.jpeg');">
-        <div class="top-section-content">
-            <div class="container px-5">
-                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
-            </div>
-        </div>
-    </section>
-    <!-- Top Section -->
-
-    <!-- Photo -->
-    <div class="container px-5">
-        <div id="avatar">
-            <img class="shadow" src="static/assets/img/photo.png">
-        </div>
-    </div>
-    <!-- Photo -->
-    
     <!-- Home -->
     <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
         <div class="container px-5">
-            <header>
-                <h2 id="home-subtitle"> </h2>
-                <!-- <span class="bi bi-list"></span> -->
-            </header>
-            <div class="main-body" id="home-md"></div>
+            <div class="hero-grid">
+                <div class="main-body" id="home-md"></div>
+                <div class="portrait"><img src="static/assets/img/photo.png" alt="Xingyu Chen" width="280" height="340"><p>Xingyu Chen <span lang="zh">/ 陈星宇</span><br><span>Shanghai, China</span></p></div>
+            </div>
+            <div class="intro-background main-body" id="honors-md" role="group" aria-label="Education and honors"></div>
         </div>
     </section>
     <!-- Home -->
@@ -142,7 +126,7 @@
     <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="research">
         <div class="container px-5">
             <header>
-                <h2 id="research-subtitle"><i class="bi bi-journal-text"></i>&nbsp;RESEARCH</h2>
+                <h2 id="research-subtitle">Research</h2>
             </header>
             <div class="main-body" id="research-md"></div>
 
@@ -154,7 +138,7 @@
     <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="experience">
         <div class="container px-5">
             <header>
-                <h2 id="experience-subtitle"><i class="bi bi-briefcase-fill"></i>&nbsp;EXPERIENCE</h2>
+                <h2 id="experience-subtitle">Experience</h2>
             </header>
             <div class="main-body" id="experience-md"></div>
 
@@ -162,18 +146,58 @@
     </section>
     <!-- Experience -->
 
-    <!-- Honors -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="honors">
+    <section id="life" aria-labelledby="gallery-title">
         <div class="container px-5">
-            <header>
-                <h2 id="honors-subtitle"><i class="bi bi-award-fill"></i>&nbsp;HONORS</h2>
-            </header>
-            <div class="main-body" id="honors-md"></div>
-
+            <div class="photo-gallery" role="region" aria-roledescription="carousel" aria-labelledby="gallery-title">
+                <div class="gallery-heading">
+                    <div>
+                        <h3 id="gallery-title">Beyond Research</h3>
+                        <p>Graduation, debate, football, and travel.</p>
+                    </div>
+                    <button id="gallery-toggle" class="btn btn-outline-primary" type="button" aria-controls="photo-carousel" aria-pressed="false">Pause slideshow</button>
+                </div>
+                <div id="photo-carousel" class="carousel slide" tabindex="0" aria-label="Personal photo gallery">
+                    <div class="carousel-inner">
+                        <figure class="carousel-item active" role="group" aria-roledescription="slide" aria-label="1 of 7">
+                            <img src="static/assets/gallery/graduation.jpg" alt="Graduation with roommates" width="1600" height="1200" decoding="async" loading="lazy">
+                            <figcaption>Graduation with roommates</figcaption>
+                        </figure>
+                        <figure class="carousel-item" role="group" aria-roledescription="slide" aria-label="2 of 7">
+                            <img src="static/assets/gallery/debate-championship.jpg" alt="Debate championship" width="1600" height="1200" decoding="async" loading="lazy">
+                            <figcaption>Debate championship</figcaption>
+                        </figure>
+                        <figure class="carousel-item" role="group" aria-roledescription="slide" aria-label="3 of 7">
+                            <img src="static/assets/gallery/department-cup.jpg" alt="Department Cup runner-up" width="1600" height="1200" decoding="async" loading="lazy">
+                            <figcaption>Department Cup runner-up</figcaption>
+                        </figure>
+                        <figure class="carousel-item" role="group" aria-roledescription="slide" aria-label="4 of 7">
+                            <img src="static/assets/gallery/after-a-match.jpg" alt="After a match" width="1600" height="1200" decoding="async" loading="lazy">
+                            <figcaption>After a match</figcaption>
+                        </figure>
+                        <figure class="carousel-item" role="group" aria-roledescription="slide" aria-label="5 of 7">
+                            <img src="static/assets/gallery/debate-moment.jpg" alt="A moment during a debate" width="1600" height="1200" decoding="async" loading="lazy">
+                            <figcaption>A moment during a debate</figcaption>
+                        </figure>
+                        <figure class="carousel-item" role="group" aria-roledescription="slide" aria-label="6 of 7">
+                            <img src="static/assets/gallery/japan.jpg" alt="Travel in Japan" width="1600" height="1200" decoding="async" loading="lazy">
+                            <figcaption>Travel in Japan</figcaption>
+                        </figure>
+                        <figure class="carousel-item" role="group" aria-roledescription="slide" aria-label="7 of 7">
+                            <img src="static/assets/gallery/guilin.jpg" alt="Travel in Guilin" width="1600" height="1200" decoding="async" loading="lazy">
+                            <figcaption>Travel in Guilin</figcaption>
+                        </figure>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#photo-carousel" data-bs-slide="prev" aria-label="Previous photo">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#photo-carousel" data-bs-slide="next" aria-label="Next photo">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+                <p id="gallery-position" class="gallery-position" aria-live="off">1 / 7 · Graduation with roommates</p>
+            </div>
         </div>
     </section>
-    <!-- Honors -->
-
 
     <!-- Footer-->
     <footer class="bg-bottom text-center py-5">

@@ -1,3 +1,2 @@
-- Fudan University **Second-Class Scholarship** (Top 10%) ×2
-- **National Silver Medal**, China Chemistry Olympiad
-- **Champion**, Fudan University Debate Competition
+<div class="education-summary"><p class="eyebrow">EDUCATION</p><h3>Fudan University</h3><p>Chemistry · 2022–2026</p><p class="academic-stats"><span>GPA <strong>3.52 / 4.0</strong></span><span>Rank <strong>26 / 104</strong></span></p></div>
+<div class="honors-summary"><p class="eyebrow">HONORS</p><p>Second-Class Scholarship, twice · Top 10%</p><p>National Silver Medal · Chemistry Olympiad</p></div>

@@ -1,23 +1,9 @@
+<p class="eyebrow">ABOUT ME</p>
 
-I am an undergraduate student at **Fudan University** (Chemistry, expected **Jun 2026**). My interests include **machine learning**, **quantitative finance**, and **multimodal generative models**.
+# Xingyu Chen <span class="name-cn" lang="zh">陈星宇</span>
 
-#### Quick Links
-- CV (PDF): [Download](CV_陈星宇_English_New.pdf)
+I’m a Fudan University chemistry graduate working on machine learning, with research and industry experience spanning robotic policies, multimodal models, and 3D vision.
 
-#### Contact
-- Email: einheitcxy@gmail.com
-- Location: Shanghai, China
-- Phone: (+86) 130-5232-3555
+<p class="research-interests"><span>Research interests</span> Model acceleration &amp; model architecture design.</p>
 
-#### Education
-- **Fudan University**, B.S. in Chemistry (expected) — 09/2022–06/2026  
-  GPA: **3.61/4.0** (Rank: **22/104**)
-
-#### Relevant Coursework
-- Financial Derivatives; Mathematical Methods in Finance; Machine Learning and Neural Networks; Natural Language Processing
-- Algorithms; Stochastic Processes; Applied Functional Analysis
-
-#### Skills
-- Programming: Python, Go, Linux
-- ML/NLP: machine learning, NLP, model training & evaluation
-- Languages: English (IELTS **7.5**)
+<div class="hero-links"><a href="mailto:einheitcxy@gmail.com">Email ↗</a><a href="https://github.com/EinheitCxy">GitHub ↗</a></div>

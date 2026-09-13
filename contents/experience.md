@@ -1,26 +1,16 @@
-#### Intern, Debt Financing Department — Guotai Junan Securities  
-Jun 2024 – Sep 2024
-
-- Conducted company analysis using financials, market position, and operational status to assess corporate health.
-- Learned the end-to-end corporate bond financing process (issuance conditions, risk assessment, and bond types).
-- Drafted internal initiation documents, bid materials, external proposals, and transaction documents.
-
-#### Intern, Investment Quant Model Development — UBS  
-Jan 2025 – May 2025
-
-- Studied bank capital composition and calculation under Basel Accords; used ML to identify influencing factors and propose risk-management optimizations.
-- Studied derivatives pricing and XVA models.
-
-#### CTO Management Trainee (Algorithms) — RetailEye
-May 2025 – Nov 2025
-
-- Built a retail display optimization system using linear programming for freezer layout under category constraints; delivered data preprocessing and visualization modules.
-- Developed a 3D shelf reconstruction + cross-image SKU matching pipeline; improved deduplication and global ID mapping, and delivered an interactive web UI.
-- Improved CycleGAN-style models with directional semantic constraints for product style transfer in specific retail scenarios.
-
-#### Algorithm Engineer Intern — Alibaba Group
-Nov 2025 – Present
-
-- Designed and developed a distributed LLM training system based on Nanotron framework, optimized for biochemical domain data with support for multiple molecular representations and streamlined data cleaning pipelines on data lakes.
-- Developed a novel pretraining framework that guides model through different training stages based on token consumption, perplexity, and evaluation set accuracy; implemented end-to-end automation from data loading to checkpointing via custom Dataloader classes.
-- Implemented an innovative MoT (Mixture-of-Transformer-Experts) architecture, integrating SigLIP vision encoder, VAE, and Qwen2.5 language model for effective cross-modal information fusion.
+<article class="experience-row">
+<div><h3>RetailEye</h3><p class="meta">CTO Management Trainee (Algorithms)<br>May–Nov 2025 · Intern / Jun 2026–Present</p></div>
+<p>Multi-view 3D reconstruction and geometric refinement for cross-image product matching in retail scenes.</p>
+</article>
+<article class="experience-row">
+<div><h3>Alibaba</h3><p class="meta">Scientific LLM training · Intern<br>Jan–May 2026</p></div>
+<p>Distributed training and multimodal architecture development for biochemical models.</p>
+</article>
+<article class="experience-row">
+<div><h3>UBS</h3><p class="meta">Quantitative modeling · Intern<br>Jan–May 2025</p></div>
+<p>Machine learning for risk modeling, alongside derivatives pricing and XVA research.</p>
+</article>
+<article class="experience-row">
+<div><h3>Guotai Junan Securities</h3><p class="meta">Debt Financing Department · Intern<br>Jun–Sep 2024</p></div>
+<p>Studied corporate financial analysis and the corporate bond financing process.</p>
+</article>
