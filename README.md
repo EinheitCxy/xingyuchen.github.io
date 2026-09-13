@@ -1,12 +1,23 @@
-# Experience content update (2026-09-13)
+# Xingyu Chen — Personal CV Website
 
-The research and work sections in `contents/research.md` and `contents/experience.md` have been updated against the September 13, 2026 Chinese and English CV revisions and reordered newest first. RetailEye includes May–November 2025 and June 2026–present, with shared responsibilities. The Alibaba internship ends in May 2026. Research content now includes chemical-data vectorization and independent training of domain-specific smaller models.
+A static personal website presenting education, research, and work experience. Content is loaded from Markdown and YAML without a build step.
 
-The source CVs disagree on Alibaba's start date and the end dates of the projects supervised by Baojian Zhou and Qingfu Liu. Pending confirmation, these retain the existing website values: November 2025, present, and January 2025, respectively. This update covers experience text; the downloadable PDF, education, and honors have not been refreshed.
+## Content and maintenance
 
-Preview from the repository root with `uv run python -m http.server 8000`, open `http://localhost:8000`, and check Research, Experience, and the browser console. No build step is required.
+- `contents/home.md`: biography, education, coursework, skills, contact details, and CV download.
+- `contents/research.md`: four research experiences, including W4A4 robotic-policy quantization.
+- `contents/experience.md`: RetailEye, Alibaba, UBS, and Guotai Junan work experience.
+- `contents/honors.md`: honors listed in the supplied full CV.
+- `contents/config.yml`: page title and banner.
+- `CV_陈星宇_English_New.pdf`: earlier CV, explicitly labeled as archived on the website. The latest DOCX conversion produced poor pagination, so it is not published as a replacement PDF.
 
+The September 13, 2026 update uses `Xingyu_Chen_CV_Full.docx` as its source of truth. It supersedes earlier conflicting dates: Alibaba is January–May 2026; Baojian Zhou's project is January–July 2025; Qingfu Liu's project is September 2024–January 2025. RetailEye's first period is identified as an internship, followed by June 2026–present. Research intervention counts describe the experimental scope, not an improvement in success rate or speed.
 
+## Preview and validation
+
+Run `uv run python -m http.server 8000` from the repository root and open `http://localhost:8000`. Check all four content sections, the CV download, desktop and mobile layouts, and the browser console. Run `git diff --check` before submitting content changes.
+
+## Template attribution
 
 ![Github Forks](https://img.shields.io/github/forks/senli1073/senli1073.github.io?style=flat)
 ![Github Stars](https://img.shields.io/github/stars/senli1073/senli1073.github.io?style=flat)
