@@ -4,12 +4,12 @@ A concise research homepage built with static HTML, Bootstrap, Markdown, and YAM
 
 ## Content and design
 
-- `contents/home.md`: introduction and current interests in model acceleration and model architecture design; email and GitHub links.
-- `contents/research.md`: all four research experiences, each with a short description.
+- `contents/home.md`: introduction and current interests in efficient VLA/VLM and model architecture design; email and GitHub links.
+- `contents/research.md`: all five research experiences, each with a short description.
 - `contents/experience.md`: all four work experiences: RetailEye, Alibaba, UBS, and Guotai Junan, one summary per role.
-- `contents/honors.md`: education and honors, displayed within the opening introduction. GPA **3.52/4.0**, rank **26/104**, updated from the owner's September 13 correction; the cohort size is retained from the CV.
+- `contents/honors.md`: education and honors, displayed within the opening introduction. GPA **3.57/4.0**, average score **91/100**, rank **20/109**; scholarships match the official certificate.
 - `contents/config.yml`: page title, name, and copyright.
-- `static/css/main.css`: navy-led color palette, responsive portrait introduction, four research cards, compact experience rows, and gallery styling.
+- `static/css/main.css`: navy-led color palette, responsive portrait introduction, research cards, compact experience rows, and gallery styling.
 
 This homepage includes all research and work experiences while summarizing each role concisely. The introduction presents the name, biography, compact research interests, education, and honors. Dates and experience are based on `Xingyu_Chen_CV_Full.docx`; the owner's latest corrections take precedence. The earlier PDF remains in the repository but is not linked from the homepage because it is outdated.
 
