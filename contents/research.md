@@ -1,22 +1,20 @@
 <article class="focus-card">
-<p class="eyebrow">01 / EFFICIENT VLA / VLM</p>
+<p class="eyebrow">01 / EFFICIENT VLA</p>
 <h3>Efficient robotic policies</h3>
-<p>Studying low-bit quantization for diffusion-based vision-language-action models, with a focus on how quantization errors affect closed-loop robot behavior.</p>
-<p class="meta">Fudan University · Prof. Weizhong Zhang · Jul 2025–Present</p>
+<p>Studying W4A4/W3A3 quantization of CogACT through controlled interventions and calibration comparisons across four SIMPLER tasks. Focused on temporal error propagation and whether offline corrections preserve closed-loop task success.</p>
+<p class="meta">Fudan University · Prof. Weizhong Zhang · Jul 2026–Present</p>
 </article>
 <article class="focus-card">
-<p class="eyebrow">02 / LLM FINE-TUNING</p>
-<h3>Noisy Embedding Instruction Fine-Tuning for Compact LLMs</h3>
-<p>Reproduced NEFTune by fine-tuning TinyLlama-Chat on Alpaca; with DeepSeek-V3 judging AlpacaEval, win rate over the original checkpoint rose from 43.8% (standard fine-tuning) to 56.2%.</p>
-<p>Among noise scales α ∈ {0.8, 2, 5}, α = 2 scored highest (64.2%); validation loss diverged from training loss at α = 5.</p>
-<p>A stability-triggered dynamic noise schedule (≈45%) and Sparse-NEFT embedding pruning (50.2% at 10%) both trailed fixed noise; validation loss did not consistently track judged win rate.</p>
-<p class="meta">Fudan University · NLP course research project · Prof. Baojian Zhou · Mar–Jun 2025 · Co-first author (team of three)</p>
+<p class="eyebrow">02 / GENERATIVE MODELS</p>
+<h3>Diffusion language models &amp; flow matching</h3>
+<p>Investigated diffusion language models for planning and presented a technical report on the mathematical formulation and physical interpretation of flow matching.</p>
+<p class="meta">Fudan University · Prof. Baojian Zhou · Jul 2025–Jan 2026</p>
 </article>
 <article class="focus-card">
-<p class="eyebrow">03 / MODEL ARCHITECTURES</p>
-<h3>Learning across modalities</h3>
-<p>Explored multimodal latent representations and model fusion for images, documents, audio, and scientific data.</p>
-<p class="meta">Fudan University · Prof. Baojian Zhou · Jan–Jul 2025</p>
+<p class="eyebrow">03 / LLM FINE-TUNING</p>
+<h3>Noisy embedding instruction fine-tuning</h3>
+<p>Reproduced NEFTune on TinyLlama-Chat and compared embedding-noise strategies. Moderate fixed noise achieved a 64.2% pairwise win rate against standard fine-tuning on 805 AlpacaEval instructions, judged by DeepSeek-V3. Also studied adaptive noise scheduling and embedding pruning.</p>
+<p class="meta">Fudan University · NLP course research project · Prof. Baojian Zhou · Mar–Jun 2025 · Co-first author</p>
 </article>
 <article class="focus-card">
 <p class="eyebrow">04 / FINANCIAL MACHINE LEARNING</p>
